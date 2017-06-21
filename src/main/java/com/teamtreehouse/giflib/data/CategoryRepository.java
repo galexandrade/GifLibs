@@ -10,8 +10,8 @@ import java.util.List;
 public class CategoryRepository {
     private static final List<Category> ALL_CATEGORIES = Arrays.asList(
             new Category(1, "Technology"),
-            new Category(1, "People"),
-            new Category(1, "Destruction")
+            new Category(2, "People"),
+            new Category(3, "Destruction")
     );
 
     public List<Category> getAllCategories(){
